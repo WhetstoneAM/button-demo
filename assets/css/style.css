@@ -1,0 +1,55 @@
+*, body, html, ::before, ::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.shape-wrapper {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-shape {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+}
+
+.second-shape {
+    height: 50%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+}
+
+.first-div {
+    height: 14em;
+    width: 14em;
+    background-color: goldenrod;
+    margin-bottom: 1em;
+}
+
+.second-div {
+    height: 14em;
+    width: 14em;
+    background-color: pink;
+    margin-bottom: 1em;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.square {
+    border-radius: none;
+}
